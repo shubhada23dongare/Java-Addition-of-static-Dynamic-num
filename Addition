@@ -1,0 +1,71 @@
+public class Add {
+	static int p=30;
+	static int q=40;
+	
+	public static void main(String[] args) {
+        
+	     int num1=5, num2=6, sum;
+	     sum=num1+num2;
+
+	      System.out.println("Sum of these numbers: "+sum);
+	      
+	      //for static p and q
+	      System.out.println(Add.p);
+	      System.out.println(Add.q);
+	      sum=Add.p+Add.q;
+	      System.out.println("sum of static p and q:"+ sum);
+	      
+	      
+	      //for dynamic
+	      add1 a1=new add1();
+	      System.out.println(a1.a);
+	      System.out.println(a1.b);
+	      
+	      sum=a1.a+a1.b;
+	      
+	      System.out.println("sum is="+sum);
+	      
+	      
+	      //for static
+	      System.out.println(add1.x);
+	      System.out.println(add1.y);
+	      
+	      sum=add1.x+add1.y;
+	      System.out.println("sum of static num is:"+sum);
+	      
+	      
+	   }
+	
+}	
+	
+class add1
+{
+	int a=7,b=8;
+	static int x=20,y=30;
+}
+
+
+
+*********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Sum of these numbers: 11
+30
+40
+sum of static p and q70
+7
+8
+sum is=15
+20
+30
+sum of static num is:50
