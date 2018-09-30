@@ -1,0 +1,44 @@
+package Addition;
+
+
+
+
+public class abc {
+	int x;
+	 double m1(){
+		
+		 double x=20.0;
+		 int y=20;
+		 int result =(int) (x+y);
+		return result;
+	 }
+	 
+	 void m2()
+	 {
+		 int x=20;
+		 int y=20;
+		 int result =x+y;
+		
+	 }
+	 public static void main(String[] args) {
+		Z z=new Z();
+		z.m3();
+	}
+}
+
+class Z{
+	void m3()
+	{
+		abc a=new abc();
+		int i=10;
+		int x=(int) a.m1();
+		int sum=i+x;
+		System.out.println(sum);
+		
+		
+	}
+	
+}
+********************************************
+output:-
+50
